@@ -1,0 +1,141 @@
+.IntegrationWrapper{
+	height: 500px;
+	background-color:#0a1429;
+}
+.ImagePart{
+	height: 480px;
+	/*background-color:#fff!important;*/
+}
+.imgBox{
+	height:300px;
+	background-color:#ccc;
+	margin-left:130px;
+	margin-top:80px;
+	border-radius:10px;
+	background-repeat:no-repeat;
+	background-size: 100% 100%;
+
+}
+.imgBox img{
+	width:100%;
+	background-size: cover;
+	border-radius:15px;
+}
+.TextPart{
+	height: 480px;
+	/*background-color:#9aa!important;*/
+}
+.intBox{
+	height: 90px;
+	width:350px;
+	/*background-color:#799;*/
+	margin:auto;
+	margin-top:180px;
+	margin-left:20px!important;
+	padding-top:5px;
+	border-left:2px solid #005580;
+}
+.heading2{
+	margin-left:30px;
+	margin-top:10px;
+	font-weight:bold;
+	color:#fff;
+}
+.para2{
+	margin-left:30px;
+	color:#fff;
+
+}
+
+/*......................................mediaQuery......................................................*/
+
+
+
+@media screen and (max-width: 1200px ){
+
+	body {
+		width: 100%;
+	}
+	.IntegrationWrapper{
+		width: 100%;
+		height:auto!important;
+	}
+}
+
+@media screen and (max-width: 992px ){
+	body {
+		width: 100%;
+	}
+	.IntegrationWrapper{
+		width: 100%;
+		height:auto!important;
+	}
+	.ImagePart{
+		width: 100%;
+		margin:auto !important;
+	}
+	.imgBox{
+		width: 100%;
+		margin:auto !important;
+	}
+	.TextPart{
+		width: 100%;
+		margin:auto !important;
+		padding-left:230px!important;
+
+	}
+	.intBox{
+		width: 100%;
+		margin:auto !important;
+		margin-top:150px!important;
+	}
+}
+@media screen and (max-width: 767px ){
+	body {
+		width: 100%;
+		height:auto!important;
+	}
+	.IntegrationWrapper{
+		width: 100%;
+		height:auto!important;
+	}
+	.ImagePart{
+		width: 100%;
+		margin:auto !important;
+	}
+	.imgBox{
+		width: 100%;
+		
+	}
+	.imgBox img{
+		width: 100%;
+
+	}
+	.TextPart{
+		width: 100%;
+		margin:auto !important;
+		/*padding-left:200px!important;*/
+		/*height:auto!important;*/
+		padding-left:30px!important;
+
+}
+	.intBox{
+		width: 100%;
+		margin-left:-250px!important;
+		margin:auto !important;
+		margin-top:0px;
+
+
+	}
+	.heading2{
+		width: 100%;
+		margin:auto !important;
+		padding-left:15px;
+		margin-top:0px !important;
+	}
+	.para2{
+		width: 100%;
+		margin:auto !important;
+		padding-left:15px;
+	}
+}
